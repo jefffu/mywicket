@@ -8,7 +8,27 @@
         <hr/>
         <a href="#" wicket:id="test1">click me</a>
 
-        <form wicket:id="testForm">
+        <form wicket:id="loginForm">
+        <ul>
+          <li>
+            <p wicket:id="loginStatus"></p>
+          </li>
+          <li>
+            <dl>
+              <dt>Username: </dt>
+              <dd><input wicket:id="username" type="text" id="username" /></dd>
+            </dl>
+          </li>
+          <li>
+            <dl>
+              <dt>Password: </dt>
+              <dd><input wicket:id="password" type="password" id="password" /></dd>
+            </dl>
+          </li>
+          <li>
+            <input type="submit" name="Login" value="Login"/>
+          </li>
+        </ul>
 
         </form>
 
